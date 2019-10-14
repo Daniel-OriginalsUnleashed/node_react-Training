@@ -1,0 +1,10 @@
+@import './css/index.css';
+
+@import './css/App.css';
+
+// Override default variables before the import
+$body-bg: #FFF;
+
+// Import Bootstrap and its default variables
+// ~ indicates node_modules
+@import '~bootstrap/scss/bootstrap.scss';
