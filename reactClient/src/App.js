@@ -1,25 +1,9 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './customBootstrap.scss';
 
 import Button from 'react-bootstrap/Button';
-import Toast from 'react-bootstrap/Button';
 
-const ExampleToast = ({ children }) => {
-  const [show, toggleShow] = useState(true);
-
-  return (
-    <>
-      {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
-      <Toast show={show} onClose={() => toggleShow(false)}>
-        <Toast.Header>
-          <strong className="mr-auto">React-Bootstrap</strong>
-        </Toast.Header>
-        <Toast.Body>{children}</Toast.Body>
-      </Toast>
-    </>
-  );
-};
 
 class App extends Component {
   constructor(props) {
@@ -62,12 +46,6 @@ class App extends Component {
           >
             Learn React
           </Button>
-          <ExampleToast className="toast">
-            We now have Toasts
-            <span role="img" aria-label="tada">
-              🎉
-            </span>
-          </ExampleToast>
         </header>
       </div>
     );

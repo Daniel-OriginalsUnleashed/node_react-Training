@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './customBootstrap.scss';
-import App from './App';
 import FormApp from './FormApp';
 import * as serviceWorker from './serviceWorker';
 
