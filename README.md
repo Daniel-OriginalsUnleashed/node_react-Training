@@ -31,7 +31,10 @@ app.use(cors(corsOptions))``
 Microservices
 From <https://www.twilio.com/blog/building-javascript-microservices-node-js> 
 
+Start the services with:
+
 node ./node_microservices/heroes/heroes.js 8081
+
 node ./node_microservices/threats/threats.js 8082
 
 
