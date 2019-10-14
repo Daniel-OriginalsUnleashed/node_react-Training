@@ -17,7 +17,7 @@ function FormApp() {
           </header>
           <a class="navbar-brand" href="#">Navbar</a>
           <nav className="nav navbar navbar-light bg-light" style={{ margin: 10 }}>
-            <NavLink className="nav-link" activeClassName='active' to='/Toast' style={{ padding: 10 }}>
+            <NavLink className="nav-link" activeClassName='active' to='/Toast?q=react' style={{ padding: 10 }}>
                 Home
             </NavLink>
             <NavLink className="nav-link" activeClassName='active' to='/Home' style={{ padding: 10 }}>
